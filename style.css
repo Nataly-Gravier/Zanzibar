@@ -1,0 +1,726 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+/* body*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+header {
+    height: 80vh !important;
+    background-image: linear-gradient(rgba(0, 242, 96, 0.4), rgba(7, 117, 230, 0.3)), url(/Imagens/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header a {
+    font-family: 'Warnes', cursive;
+    color: white;
+    font-size: 25px;
+}
+
+body>header>nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 50%;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    z-index: 1;
+}
+
+body>header>nav>a {
+    font-size: 25px;
+}
+
+
+#teximg {
+    position: absolute;
+    color: #fff;
+    top: 200px;
+    padding-left: 100px;
+}
+
+#teximg>h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#teximg>h2 {
+    font-size: 40px;
+}
+
+#teximg>p {
+    font-size: 10px;
+}
+
+/* buttons*/
+
+#teximg>div {
+    display: flex;
+    gap: 9px;
+    padding-top: 6px;
+    font-size: 12px;
+}
+
+#teximg>div>button:nth-child(1) {
+    background-color: white;
+    border-radius: 6px;
+    border-color: transparent;
+    width: 100px;
+    height: 30px;
+    color: aqua;
+    font-weight: bold;
+}
+
+#teximg>div>button:nth-child(2) {
+    background-color: transparent;
+    border-radius: 6px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Qui sommes-nous*/
+
+body>h1:after {
+    display: block;
+    height: 2px;
+    background-color: #05cdfe;
+    width: 50px;
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+body>h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+
+#nous {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+/*macacdo e texto */
+
+#left {
+    width: 60%;
+}
+
+#right {
+    width: 60%;
+}
+
+#left>img {
+    width: 700px;
+}
+
+#right>div>div.tex>h2 {
+    font-size: 25px;
+}
+
+#right>div>div.tex>p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.icone {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.icone h2 {
+    font-size: 1.6em;
+}
+
+#right>div>div.icone>i>span {
+    color: red;
+    font-size: 2.3em;
+}
+
+
+
+/*notre ville*/
+
+#notre {
+    background: #05edfe;
+    padding-bottom: 30px;
+}
+
+#notre>div>h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#notre>div>ul>li>h2 {
+    font-size: 20px;
+}
+
+#notre>div>h1:after {
+    display: block;
+    height: 2px;
+    background-color: rgb(41, 198, 255);
+    width: 60px;
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+#notre>div>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#notre>div.spp>ul>li>p {
+    font-size: 15px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+#notre>div>ul>li {
+    background-color: white;
+    height: 420px;
+    width: 320px;
+    border-radius: 7px;
+}
+
+#notre>div>ul>li>img {
+    width: 200px;
+    padding-top: 15px;
+}
+
+#galeria {
+    background: white;
+    width: 80vw;
+    margin: 100px auto;
+}
+
+#galeria>h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#galeria>h1:after {
+    display: block;
+    height: 2px;
+    background-color: #05cdfe;
+    width: 80px;
+    content: "";
+    margin: auto;
+    margin-bottom: 6px;
+}
+
+.fotogaleri {
+    display: flex;
+    height: 50vh;
+}
+
+.fotogaleri div {
+    margin: 20px;
+}
+
+#galeria>div>div.femme {
+    background-image: url(/galerie/femmes-zanzibar.jpg);
+    border-radius: 10px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fotogaleri h2 {
+    position: relative;
+    left: 40px;
+    top: 400px;
+    color: white;
+}
+
+#galeria>div>div.plage {
+    background-image: url(/galerie/plage-zanzibar.jpg);
+    border-radius: 10px;
+    width: 67%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#galeria>div>div.epice {
+    background-image: url(/galerie/epices-zanzibar.jpg);
+    border-radius: 10px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#galeria>div>div.village {
+    background-image: url(/galerie/village-pecheur-zanzibar.jpg);
+    border-radius: 10px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#galeria>div>div.safari {
+    background-image: url(/galerie/safari-blue.jpg);
+    border-radius: 10px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*clientes*/
+
+#clientes {
+    background-image: linear-gradient(rgba(0, 242, 96, 0.4), rgba(7, 117, 230, 0.3)), url(/Imagens/the-paysage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+}
+
+#clientes h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#clientes h1:after {
+    display: block;
+    height: 2px;
+    background-color: white;
+    width: 80px;
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+#clientes>div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#clientes p {
+    font-style: italic;
+
+}
+
+.texiconfotoname {
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 40px;
+
+}
+
+.icontex {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.icontex img {
+    border-radius: 100%;
+    width: 45px;
+}
+
+.fotoname {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*nossos dias*/
+
+#nossosdias h1 {
+    padding-top: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#nossosdias>h1:after {
+    display: block;
+    height: 2px;
+    background-color: #05cdfe;
+    width: 80px;
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+#nossosdias>div>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#nossosdias h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#nossosdias h3 {
+    font-size: 25px;
+    font-style: italic;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#nossosdias h4 {
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+#nossosdias h5 {
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+#nossosdias h5>span {
+    padding-right: 10px;
+}
+
+#nossosdias>div>ul>div.quadro1 {
+    background-color: white;
+    width: 360px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: gainsboro;
+    padding-bottom: 20px;
+}
+
+#nossosdias>div>ul>div.quadro2 {
+    background-color: #05cdfe;
+    width: 360px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: gainsboro;
+    color: white;
+}
+
+#nossosdias>div>ul>div.quadro3 {
+    background-color: white;
+    width: 360px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: gainsboro;
+}
+
+#nossosdias button {
+    background-color: rgb(37, 179, 231);
+    border-radius: 6px;
+    border-color: transparent;
+    width: 150px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.quadros {
+    padding-bottom: 100px;
+}
+
+/*footer*/
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.divisao>h1:after {
+    display: block;
+    height: 2px;
+    background-color: #05cdfe;
+    width: 80px;
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.fotogaleri h2 {
+    top: 400px;
+}
+
+#nossosdias>div>ul>div.quadro2, .quadro3 {
+    padding-bottom: 20px;
+}
+
+#formulario {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.divisao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.informacao, .informacao2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.informacao h3, #concerto {
+    margin-right: 10px;
+}
+
+iframe {
+    width: 600px;
+    height: 400px;
+}
+
+#formulario .comentario button {
+    background-color: rgb(37, 179, 231);
+    border-radius: 6px;
+    border-color: transparent;
+    width: 150px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#formulario > div > h2{ 
+    padding-right: 20px;
+
+}
+
+textarea {
+    height: 5vw;
+    width: 35vh;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 60px;
+    padding: 20px 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/*midia queries*/
+
+/*midia queries debute 1200 : small laptops*/
+@media screen and (max-width: 1200px) {
+
+    #formulario {
+        flex-direction: column;
+    }
+
+}
+
+/*midia queries tablet */
+
+@media screen and (max-width: 1024px) {
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    #notre>div>ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5em;
+    }
+
+    #clientes>div {
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5em;
+    }
+
+    #nossosdias>div>ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5em;
+    }
+
+    .icone {
+        flex-direction: unset !important;
+    }
+
+
+    /*midia queries debute smartphone*/
+
+    @media screen and (max-width: 768px) {
+
+        nav {
+            height: 10em;
+            justify-content: center;
+        }
+
+        #nous {
+            align-items: flex-start;
+        }
+
+        #teximg {
+            margin: auto;
+            top: 200px;
+            padding-left: 50px;
+            width: 200px;
+
+        }
+
+        nav ul {
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        #left, #right {
+            width: 90vw
+        }
+
+        #right div {
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        #notre div {
+            background-size: auto;
+
+        }
+
+        .texiconfotoname {
+            background-size: auto;
+        }
+
+        #left img {
+            position: absolute;
+            opacity: 0.3;
+            width: 80vw;
+            z-index: -1;
+        }
+
+        #notre div ul li img {
+            width: 250px;
+            padding-top: 1px;
+        }
+
+
+        .fotogaleri {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            height: auto;
+        }
+
+        .fotogaleri div {
+            height: 30vh;
+            width: 80vw !important;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        .fotogaleri h2 {
+            top: 200px;
+        }
+
+        #galeria {
+            margin: auto !important;
+        }
+
+        .tex {
+            width: 80vw;
+        }
+
+        #clientes div p {
+            font-size: 1.2em;
+        }
+
+        .informacao2 {
+            flex-direction: column;
+        }
+
+        iframe {
+            width: 75vw;
+            height: 30vh;
+        }
+
+        #formulario>div {
+            width: auto;
+        }
+
+        div.comentario {
+            padding-bottom: 15px;
+        }
+    }
