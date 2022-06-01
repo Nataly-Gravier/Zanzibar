@@ -553,7 +553,7 @@ iframe {
     font-weight: bold;
 }
 
-#formulario > div > h2{ 
+#formulario>div>h2 {
     padding-right: 20px;
 
 }
@@ -724,3 +724,4 @@ footer {
             padding-bottom: 15px;
         }
     }
+}
